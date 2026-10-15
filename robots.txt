@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*.pdf$
+
+Sitemap: https://www.ntdesignengineering.com/sitemap.xml

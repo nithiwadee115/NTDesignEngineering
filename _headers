@@ -1,0 +1,16 @@
+# Cloudflare Pages headers (replaces .htaccess)
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# CSS / JS: 1 day, so edits show up quickly
+/assets/css/*
+  Cache-Control: public, max-age=86400
+/assets/js/*
+  Cache-Control: public, max-age=86400
+
+# Images: 30 days
+/assets/img/*
+  Cache-Control: public, max-age=2592000
